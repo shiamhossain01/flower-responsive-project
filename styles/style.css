@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1, h2, h3, h4, h5, h6, p{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.inter-font-primary{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.noto-serif-font-secondary {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+
+
+.header{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0px 30px 0px 30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 48px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
+nav ul li a:hover{
+    color: #E95A08;
+    
+}
+
+.home{
+    color: #252432;
+    font-weight: 600;
+}
+
+.cart{
+    color: #252432;
+}
+
+/* banner section */
+.banner{
+    display: flex;
+    align-items: end;
+    min-height: 461px;
+    margin: 120px 0px 120px 0px;
+    padding: 0px 30px 0px 30px;
+}
+.banner-tittle{
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0px;
+
+}
+
+.span{
+    color: #E95A08;
+}
+
+.banner-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.375rem;
+    margin-top: 20px;
+
+}
+
+/* plant section */
+
+.plant{
+    margin-bottom: 210px;
+    padding: 0px 30px 0px 30px;
+}
+
+.plant-tittle{
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+
+.plant-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.375rem;
+    margin-top: 16px;
+    
+}
+
+.plant-content{
+    max-width: 888px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.plant-card{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+    column-gap: 20px;
+}
+
+.card-tittle{
+    color: #111111;
+    font-size: 1.375rem;
+    font-weight: 500;
+    margin: 30px 0px 20px 0px;
+    
+}
+
+.card-sub-tittle{
+    color: #111111;
+    font-size: 1.375rem;
+    font-weight: bold;
+    margin: 0px 0px 30px 0px;
+
+}
+
+.btn{
+    color: #FFFFFF;
+    font-weight: 600;
+    background-color: #E95A08;
+    width: 100%;
+    border: none;
+    padding: 19px 80px;
+    
+
+}
+
+.single-card{
+    max-width: 270px;
+    text-align: center;
+}
+
+.single-card img{
+    width: 100%;
+}
+    
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+    .hidden{
+        display: none;
+    }
+    nav ul li{
+        margin-left: 0px;
+    }
+    nav ul li a{
+        font-size: 24px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin: 30px 0px 120px 0px;
+        padding: 0px;
+    }
+
+    .banner-tittle {
+        font-size: 2.3rem;
+    }
+    .banner-contant{
+        padding: 28px 20px 0px 20px;
+    }
+    .banner-image{
+        padding: 0px;
+    }
+    .plant-card{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .plant{
+        padding: 0px 20px 0px 20px;
+
+    }
+    
+}
