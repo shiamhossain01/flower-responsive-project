@@ -163,6 +163,10 @@ nav ul li a:hover{
     text-align: center;
 }
 
+.btn:hover{
+    background-color: #111111;
+}
+
 .single-card img{
     width: 100%;
 }
@@ -341,6 +345,7 @@ nav ul li a:hover{
 
 .form{
     width: 830px;
+    margin-top: 30px;
 }
 
 .button{
@@ -454,6 +459,29 @@ nav ul li a:hover{
     .offer-image-third{
         /* width: auto%; */
         height: 206px;
+    }
+
+    .footer{
+        padding: 0px 20px 0px 20px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+
+    }
+    .footer li{
+        margin-bottom: 20px;
+
+    }
+    .email{
+        width: 35%;
+    }
+
+    .button{
+         padding: 19px 45px;
+    }
+
+    .information-tittle {
+        font-size: 2.5rem;
+
     }
     
 }
