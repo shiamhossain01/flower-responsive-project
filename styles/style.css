@@ -221,6 +221,10 @@ nav ul li a:hover{
 
 /* offer section */
 
+.hidden{
+    display: none;
+}
+
 .offer{
     margin-bottom: 120px;
     padding: 0px 30px 0px 30px;
@@ -303,6 +307,86 @@ nav ul li a:hover{
     text-underline-offset: 4px;
 
 }
+
+/* information section */
+
+.information{
+    background-image: url(../images/news-letter-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33.313rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-content{
+    text-align: center;
+    /* max-width: 830px; */
+    
+}
+
+.information-tittle{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: white;
+}
+
+.email{
+    width: 70%;
+    padding: 19px 20px 19px 20px;
+    border: none;
+}
+
+.form{
+    width: 830px;
+}
+
+.button{
+    background-color: #E95A08;
+    border: none;
+    padding: 19px 53px;
+    color: white;
+    font-weight: 600;
+    
+}
+
+.footer{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 110px;
+    margin: 50px 0px 50px 0px;
+}
+
+.footer li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.footer li a{
+    text-decoration: none;
+    color: #6B7280;
+
+}
+
+.footer li a:hover{
+    color: #E95A08;
+}
+
+.footer-icon img{
+    /* display:grid; */
+    margin-left: 10px;
+}
+.footer-tittle{
+    font-size: 1.375rem;
+    margin-top: 10px;
+
+}
+
 
 
 
